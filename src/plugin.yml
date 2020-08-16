@@ -1,5 +1,5 @@
 name: Cars
-version: '1.1.0'
+version: '1.1.1'
 author: celerry
 website: github.com/celerry/Cars
 main: com.celerry.cars.Cars

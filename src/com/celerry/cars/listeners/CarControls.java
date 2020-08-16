@@ -96,14 +96,16 @@ public class CarControls extends PacketAdapter {
                     }
 
                     // Honking horn
-                    if (jumping) {
-                        if (!honking.containsKey(player.getUniqueId())) {
-                            honking.put(player.getUniqueId(), true);
-                            player.getWorld().playSound(player.getLocation(), Sound.ITEM_BOTTLE_FILL_DRAGONBREATH, 15, 2);
+                    if(plugin.getConfig().getBoolean("options.honking")) {
+                        if (jumping) {
+                            if (!honking.containsKey(player.getUniqueId())) {
+                                honking.put(player.getUniqueId(), true);
+                                player.getWorld().playSound(player.getLocation(), Sound.ITEM_BOTTLE_FILL_DRAGONBREATH, 15, 2);
+                            }
                         }
-                    }
-                    if (!jumping) {
-                        honking.remove(player.getUniqueId());
+                        if (!jumping) {
+                            honking.remove(player.getUniqueId());
+                        }
                     }
 
                     if(!goingUp.get()) { // Gravity
