@@ -1,0 +1,18 @@
+name: Cars
+version: '1.0'
+author: celerry
+website: github.com/celerry/Cars
+main: com.celerry.cars.Cars
+
+load: STARTUP
+depend: [ProtocolLib, Vault]
+softdepend: [Vault]
+
+
+commands:
+  car:
+    aliases: [cars]
+    usage: /car [lock|unlock|add|remove|despawn|buy|list|reset|sell]
+    description: Root command
+    default: true
+

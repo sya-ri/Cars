@@ -1,0 +1,13 @@
+options:
+  # How much it costs to spawn in a car
+  costtospawn: 15.0
+  # Item of cars
+  caritem: "DIAMOND_HOE"
+  # Prefix to show in messages
+  prefix: "&e[Cars]"
+
+sign:
+  line1: "&9[Cars]"
+  line2: "&cSpawn"
+  line3: ""
+  line4: ""

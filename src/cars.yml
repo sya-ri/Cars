@@ -1,0 +1,31 @@
+# No duplicate keys (car ids, e.g pickup_gray)
+# No capital letters in keys!!!
+# Keep speed above 0 and below 1 or strange things may happen
+# Keep y offset less than 0 and greater than or equal to -1
+# Keep side and backwards offsets as negative numbers
+
+# Currently the plugin only supports 53 different cars, this may change in a future update.
+# Make sure you do not go over 54 cars if you plan on ignoring the 53 limit, or the plugin will 100% break.
+pickup_gray:
+  name: "&7Gray Pickup"
+  cost: 35000
+  speed: 0.35
+  durability: 42
+  passengerseat: true
+  backpassengerseat: true
+  backdriverseat: true
+  sideoffset: -0.95
+  backwardsoffset: -0.568
+  yoffset: -1
+  requiredpermission: "police"
+motorbike:
+  name: "&aMotorbike"
+  cost: 15000
+  speed: 0.375
+  durability: 8
+  passengerseat: false
+  backpassengerseat: false
+  backdriverseat: true
+  sideoffset: -0.95
+  backwardsoffset: -0.568
+  yoffset: -1
