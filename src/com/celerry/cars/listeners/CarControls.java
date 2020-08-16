@@ -8,6 +8,7 @@ import com.comphenix.protocol.events.ListenerPriority;
 import com.comphenix.protocol.events.PacketAdapter;
 import com.comphenix.protocol.events.PacketEvent;
 import org.bukkit.Location;
+import org.bukkit.Sound;
 import org.bukkit.block.Block;
 import org.bukkit.entity.ArmorStand;
 import org.bukkit.entity.EntityType;
@@ -98,7 +99,7 @@ public class CarControls extends PacketAdapter {
                     if (jumping) {
                         if (!honking.containsKey(player.getUniqueId())) {
                             honking.put(player.getUniqueId(), true);
-                            player.sendMessage("honk honk");
+                            player.getWorld().playSound(player.getLocation(), Sound.ITEM_BOTTLE_FILL_DRAGONBREATH, 15, 2);
                         }
                     }
                     if (!jumping) {
