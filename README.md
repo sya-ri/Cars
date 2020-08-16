@@ -1,6 +1,7 @@
 # Cars
 *Stop walking, start driving*
 
+Download the latest release [here](https://github.com/celerry/Cars/releases/latest)
 ---
 
 ## Dependencies
