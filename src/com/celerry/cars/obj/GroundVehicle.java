@@ -46,7 +46,7 @@ public class GroundVehicle {
     public GroundVehicle(@NotNull Player player, @NotNull String id) {
         this.uuid = player.getUniqueId();
         this.friends.add(player.getUniqueId());
-        this.unlocked = true;//false;
+        this.unlocked = false;
 
         this.config = new CarConfig(id);
 
