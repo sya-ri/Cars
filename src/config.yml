@@ -6,7 +6,7 @@ options:
   # Prefix to show in messages
   prefix: "&e[Cars]"
   # Car horn honking (sounds pretty bad)
-  honking: false
+  honking: true
 
 sign:
   line1: "&9[Cars]"

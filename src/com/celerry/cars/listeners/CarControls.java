@@ -100,7 +100,8 @@ public class CarControls extends PacketAdapter {
                         if (jumping) {
                             if (!honking.containsKey(player.getUniqueId())) {
                                 honking.put(player.getUniqueId(), true);
-                                player.getWorld().playSound(player.getLocation(), Sound.ITEM_BOTTLE_FILL_DRAGONBREATH, 15, 2);
+                                player.getWorld().playSound(player.getLocation(), Sound.BLOCK_NOTE_HARP, 15, (float) 0.5);
+                                player.getWorld().playSound(player.getLocation(), Sound.BLOCK_NOTE_HARP, 15, (float) 0.56);
                             }
                         }
                         if (!jumping) {
