@@ -38,13 +38,11 @@ Download the latest release [here](https://github.com/celerry/Cars/releases/late
 
 ## Future Plans
 
-~~In the future I plan on:~~
+In the future I plan on:
 
-~~- Tidying up the code (this was made in about 4 days so some code is not as optimized as other parts)~~
-~~- Add fuel~~
-~~- Removing the 53 car limit (allow unlimited cars)~~
-
-If you want to build upon this project, feel free. I no longer have interest in it.
+- Tidying up the code (this was made in about 4 days so some code is not as optimized / scalable as other parts)
+- Add fuel
+- Removing the 53 car limit (allow unlimited cars)
 
 ## License and Libraries used
 
