@@ -47,4 +47,4 @@ In the future I plan on:
 ## License and Libraries used
 
 This plugin uses [FastInv](https://github.com/MrMicky-FR/FastInv) by [MrMicky](https://github.com/MrMicky-FR)\
-This project is licensed under [GNU General Public License v3.0](LICENSE)
+This project is in the Public Domain and licensed under [Unlicense](LICENSE)
