@@ -2,7 +2,7 @@ package com.celerry.cars.obj;
 
 import com.celerry.cars.Cars;
 import com.celerry.cars.utils.Utils;
-import com.sun.istack.internal.NotNull;
+import org.jetbrains.annotations.NotNull;
 import org.bukkit.Material;
 import org.bukkit.configuration.file.FileConfiguration;
 

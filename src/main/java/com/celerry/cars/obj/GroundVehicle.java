@@ -2,7 +2,7 @@ package com.celerry.cars.obj;
 
 import com.celerry.cars.utils.Message;
 import com.celerry.cars.utils.Utils;
-import com.sun.istack.internal.NotNull;
+import org.jetbrains.annotations.NotNull;
 import fr.mrmicky.fastinv.ItemBuilder;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;

@@ -2,7 +2,9 @@ package com.celerry.cars.listeners;
 
 
 import com.celerry.cars.Cars;
+/*
 import com.isnakebuzz.servernpc.Events.NPCInteractEvent;
+*/
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -20,6 +22,7 @@ public class ClickOnShopNPC implements Listener {
         this.plugin = plugin;
     }
 
+/*
     @EventHandler
     public void onNPCClick(NPCInteractEvent event) {
         String id = event.getSnakeNPC().getName();
@@ -34,4 +37,5 @@ public class ClickOnShopNPC implements Listener {
             player.sendMessage("Click on Parachute NPC");
         }
     }
+*/
 }
